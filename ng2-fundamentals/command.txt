@@ -1,0 +1,13 @@
+npm config set strict-ssl false
+npm config set registry "http://registry.npmjs.org/"
+npm config set proxy <proxy url>
+
+Property Binding
+<img [src] = 'product.imageUrl' > // Dynamic value Element Expression
+<img src ={{product.imageUrl}}> //Template Expression
+
+Event Binding
+button (click) ='toggleImage()' //Events in round bracket
+
+Two-way Binding
+<input [(ngModel)]='listFilter'>
